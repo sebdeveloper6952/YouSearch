@@ -42,7 +42,6 @@ namespace YoutubeSearch
             appPath = Properties.Settings.Default.appPath = o.FileName;
             Properties.Settings.Default.browserSet = true;
             Properties.Settings.Default.Save();
-            //appPath = Properties.Settings.Default.appPath;
         }
 
         /// <summary>
